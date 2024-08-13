@@ -9,7 +9,7 @@
 
 #### Ссылка на приложение
 
-Ссылка на демо-страницу: 
+Ссылка на демо-страницу: https://strahpas1986.github.io/todolist-new/
 
 Ссылка на репозиторий: https://github.com/strahpas1986/todolist-new
 
