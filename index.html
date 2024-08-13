@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <h1>ToDoList</h1>
+    <div class="container">
+        <div class="add-todo">
+            <div class="input-wrapper">
+                <input onkeydown="return checkPhoneKey(event.key)" placeholder="Задача" type="text" id="description-task" class="add-todo__input">
+            </div>
+            <div class="button-wrapper">
+                <button class="add-task-btn" id="add-task-btn">Добавить</button>
+            </div>
+        </div>
+        <h2>Сегодня:</h2>
+        <div class="todos-wrapper">
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
